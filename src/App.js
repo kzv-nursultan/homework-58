@@ -43,7 +43,7 @@ const  App = () => {
         'This some text'
       </Alert>
 
-     <div className="container text-center mt-4">
+     <div className="container text-center mt-4 d-flex justify-content-evenly bg-secondary p-4">
         <button className="btn-warning" onClick={openModal}>ShowModal</button>
         <button className="btn-info" onClick={openAlert}>Show Alert</button>
      </div>
